@@ -15,6 +15,7 @@ function App() {
           <Route path="/channel/:id" element={<Channel/>} />
         
           <Route path="/search/:searchTerm" element={<Search/>} />
+              <Route path="*" element={<Feed/>} />
         </Routes>
       </Box>
         
